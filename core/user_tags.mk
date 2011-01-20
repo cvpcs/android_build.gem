@@ -27,6 +27,7 @@ GRANDFATHERED_USER_MODULES :=
 
 GRANDFATHERED_USER_MODULES += \
 	20-dns.conf \
+	5652rgb \
 	95-configured \
 	aapt \
 	acp \
