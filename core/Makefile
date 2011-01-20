@@ -1062,6 +1062,9 @@ $(INTERNAL_OTA_PACKAGE_TARGET): $(BUILT_TARGET_FILES_PACKAGE) $(OTATOOLS)
 .PHONY: otapackage
 otapackage: $(INTERNAL_OTA_PACKAGE_TARGET)
 
+.PHONY: bacon
+bacon: otapackage
+
 # -----------------------------------------------------------------
 # The update package
 
